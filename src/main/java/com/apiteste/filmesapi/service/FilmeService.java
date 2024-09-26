@@ -49,7 +49,7 @@ public class FilmeService {
         return this.getById(filme.getId());
     }
 
-    public List<Filme> getByGeneroList(String genero){
+    public List<Filme> getByGeneros(String genero){
         return listaDeFilmes.stream()
                             .filter(f -> f.getGeneros().stream()
                                                          .filter(g -> g.equals(genero))
