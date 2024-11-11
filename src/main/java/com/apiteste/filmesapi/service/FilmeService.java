@@ -13,6 +13,7 @@ public class FilmeService {
     
     private static List<Filme> listaDeFilmes = new ArrayList<>();
 
+    // Aqui é criado, manualmente e para fins de teste, um objeto filme.
     private void filmeFalso(){
         Filme filmeFalso = new Filme();
         filmeFalso.setId(1L);

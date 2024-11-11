@@ -15,6 +15,7 @@ public class Filme implements Serializable{
     private double notaDoIMDB;
     private LocalDate dataDeLancamento;
 
+    //Construtor Vazio
     public Filme() {
 
     }
